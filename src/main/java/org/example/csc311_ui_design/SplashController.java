@@ -3,7 +3,7 @@ package org.example.csc311_ui_design;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class SplashController {
     @FXML
     private Label welcomeText;
 

@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.example.csc311_ui_design/org.example.csc311_ui_design.HelloApplication
+                            <mainClass>org.example.csc311_ui_design/org.example.csc311_ui_design.StudentPortalApplication
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
