@@ -12,3 +12,10 @@
     -fx-background-radius: 10;
     -fx-background-insets: 0;
 }
+
+.login-button {
+    -fx-background-color: #0B3D2E;
+    -fx-text-fill: white;
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+}
