@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
 
-<?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.example.csc311_ui_design.SplashController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #0B3D2E;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="260.0" prefWidth="700.0" text="Farmingdale Student Portal" textFill="#fcfcfc">
+         <font>
+            <Font name="Avenir Next Condensed Demi Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="100.0" layoutY="315.0" prefWidth="700.0" text="Your campus. Your connection. " textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Ultra Light Italic" size="18.0" />
+         </font>
+      </Label>
+      <Circle fill="#5faf8a" layoutX="450.0" layoutY="190.0" radius="55.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="2.0" />
+      <Label alignment="CENTER" layoutX="395.0" layoutY="165.0" prefHeight="50.0" prefWidth="110.0" text="FSC" textFill="WHITE">
+         <font>
+            <Font name="Futura Bold" size="36.0" />
+         </font>
+      </Label>
+      <ProgressBar layoutX="250.0" layoutY="385.0" prefHeight="10.0" prefWidth="400.0" progress="0.65" />
+      <Label alignment="CENTER" layoutX="250.0" layoutY="395.0" prefHeight="250.0" prefWidth="400.0" text="Loading your portal ...." textFill="WHITE">
+         <font>
+            <Font name="Avenir Light" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

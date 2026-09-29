@@ -1,0 +1,14 @@
+.progress-bar {
+    -fx-accent: #5FAF8A;
+}
+
+.progress-bar .track {
+    -fx-background-color: rgba(255, 255, 255, 0.30);
+    -fx-background-radius: 10;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #5FAF8A;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+}
