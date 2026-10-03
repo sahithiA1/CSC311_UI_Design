@@ -7,8 +7,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F7F5EF;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.csc311_ui_design.RegisterView">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F7F5EF;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.csc311_ui_design.RegisterController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0b3d2e" height="600.0" stroke="WHITE" strokeType="INSIDE" width="330.0" />
       <Label layoutX="28.0" layoutY="161.0" text="FSC" textFill="WHITE">
@@ -71,7 +70,7 @@
             <Font name="Avenir Roman" size="14.0" />
          </font>
       </TextField>
-      <Button layoutX="410.0" layoutY="485.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="380.0" style="-fx-background-color: #0B3D2E; -fx-text-fill: white; -fx-background-radius: 8;" text="CREATE ACCOUNT">
+      <Button layoutX="410.0" layoutY="485.0" mnemonicParsing="false" onAction="#goToLogin" prefHeight="44.0" prefWidth="380.0" style="-fx-background-color: #0B3D2E; -fx-text-fill: white; -fx-background-radius: 8;" text="CREATE ACCOUNT">
          <font>
             <Font name="Avenir Next Demi Bold" size="14.0" />
          </font>
@@ -81,7 +80,7 @@
             <Font name="Avenir Roman" size="13.0" />
          </font>
       </Label>
-      <Label layoutX="590.0" layoutY="567.0" text="Sign In" textFill="#0b3d2e">
+      <Label layoutX="590.0" layoutY="567.0" onMouseClicked="#goToLogin" text="Sign In" textFill="#0b3d2e">
          <font>
             <Font name="Avenir Next Demi Bold" size="13.0" />
          </font>

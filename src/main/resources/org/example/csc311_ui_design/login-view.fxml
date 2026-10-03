@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F7F5EF;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F7F5EF;" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.csc311_ui_design.LoginController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0b3d2e" height="600.0" stroke="WHITE" strokeType="INSIDE" width="360.0" />
       <Label layoutX="55.0" layoutY="170.0" text="FSC" textFill="WHITE">
@@ -57,7 +57,7 @@
             <Font name="Avenir Roman" size="14.0" />
          </font>
       </PasswordField>
-      <Button layoutX="465.0" layoutY="420.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="330.0" style="-fx-background-color: #0B3D2E; -fx-text-fill: white; -fx-background-radius: 8;" styleClass="login-button" text="SIGN IN ">
+      <Button layoutX="465.0" layoutY="420.0" mnemonicParsing="false" onAction="#goToLanding" prefHeight="44.0" prefWidth="330.0" style="-fx-background-color: #0B3D2E; -fx-text-fill: white; -fx-background-radius: 8;" styleClass="login-button" text="SIGN IN ">
          <font>
             <Font name="Avenir Next Demi Bold" size="14.0" />
          </font>
@@ -67,7 +67,7 @@
             <Font name="Avenir Roman" size="13.0" />
          </font>
       </Label>
-      <Hyperlink alignment="CENTER" layoutX="668.0" layoutY="491.0" text="Create Account" textFill="#0b3d2e">
+      <Hyperlink alignment="CENTER" layoutX="667.0" layoutY="492.0" onAction="#goToRegister" text="Create Account" textFill="#0b3d2e">
          <font>
             <Font name="Avenir Next Demi Bold" size="13.0" />
          </font>
