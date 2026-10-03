@@ -25,7 +25,7 @@
             <Font name="Avenir Roman" size="14.0" />
          </font>
       </Label>
-      <Label layoutX="410.0" layoutY="95.0" text="Create Account" textFill="#0b3d2e">
+      <Label layoutX="410.0" layoutY="95.0" styleClass="page-title" text="Create Account" textFill="#0b3d2e">
          <font>
             <Font name="Avenir Next Demi Bold" size="28.0" />
          </font>

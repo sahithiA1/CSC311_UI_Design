@@ -19,3 +19,25 @@
     -fx-background-radius: 8;
     -fx-font-size: 14px;
 }
+
+.page-title {
+    -fx-font-family: "Avenir Next";
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0B3D2E;
+}
+
+.section-title {
+    -fx-font-family: "Avenir Next";
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0B3D2E;
+}
+.primary-button{
+-fx-background-color: #0B3D2E;
+-fx-text-fill: white;
+-fx-background-radius: 8;
+-fx-font-family: "Avenir Next";
+-fx-font-size: 14px;
+-fx-font-weight: bold;
+}

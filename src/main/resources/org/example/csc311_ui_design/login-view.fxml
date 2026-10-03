@@ -27,7 +27,7 @@
             <Font name="Avenir Light" size="15.0" />
          </font>
       </Label>
-      <Label layoutX="465.0" layoutY="145.0" text="Sign In" textFill="#0b3d2e">
+      <Label layoutX="465.0" layoutY="145.0" styleClass="page-title" text="Sign In" textFill="#0b3d2e">
          <font>
             <Font name="Avenir Next Demi Bold" size="30.0" />
          </font>
