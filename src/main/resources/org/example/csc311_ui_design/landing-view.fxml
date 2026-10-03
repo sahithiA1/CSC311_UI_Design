@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #F7F5EF;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.csc311_ui_design.LandingView">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0b3d2e" height="80.0" stroke="WHITE" strokeType="INSIDE" width="900.0" />
+      <Label layoutX="35.0" layoutY="23.0" text="FSC" textFill="WHITE">
+         <font>
+            <Font name="Futura Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="27.0" text="Student Portal" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="570.0" layoutY="31.0" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="640.0" layoutY="31.0" text="Courses" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="725.0" layoutY="31.0" text="Calendar" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="820.0" layoutY="31.0" text="Log Out" textFill="#b8e0d2">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="115.0" text="Welcome Back!" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="155.0" text="Here's what's happening on campus today." textFill="#666666">
+         <font>
+            <Font name="Avenir Roman" size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="18.0" arcWidth="18.0" fill="WHITE" height="145.0" layoutX="55.0" layoutY="210.0" stroke="#e2e2e2" strokeType="INSIDE" width="240.0" />
+      <Label layoutX="62.0" layoutY="222.0" text="My Courses" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="270.0" text="4 Active Courses" textFill="#666666">
+         <font>
+            <Font name="Avenir Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="317.0" text="View Courses →" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="18.0" arcWidth="18.0" fill="WHITE" height="145.0" layoutX="330.0" layoutY="210.0" stroke="#e2e2e2" strokeType="INSIDE" width="240.0" />
+      <Label layoutX="349.0" layoutY="222.0" text="Upcoming Events" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="270.0" text="3 Events This Week " textFill="#666666">
+         <font>
+            <Font name="Avenir Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="361.0" layoutY="317.0" text="View Calendar →" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="18.0" arcWidth="18.0" fill="WHITE" height="145.0" layoutX="605.0" layoutY="210.0" stroke="#e2e2e2" strokeType="INSIDE" width="240.0" />
+      <Label layoutX="625.0" layoutY="222.0" text="Assignments" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="625.0" layoutY="270.0" text="2 Due This Week" textFill="#666666">
+         <font>
+            <Font name="Avenir Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="635.0" layoutY="316.0" text="View Assignments →" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="395.0" text="Campus Updates" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="18.0" arcWidth="18.0" fill="WHITE" height="109.0" layoutX="51.0" layoutY="442.0" stroke="#e2e2e2" strokeType="INSIDE" width="810.0" />
+      <Label layoutX="75.0" layoutY="452.0" text="Fall Semester Registration is Now Open" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="480.0" text="Plan ahead and register for your upcoming courses." textFill="#666666">
+         <font>
+            <Font name="Avenir Roman" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="510.0" text="Learn More →" textFill="#0b3d2e">
+         <font>
+            <Font name="Avenir Next Demi Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
